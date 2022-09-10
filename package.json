@@ -1,0 +1,16 @@
+{
+  "name": "who-in-the-office",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.1.1",
+    "jest": "^29.0.2"
+  }
+}
