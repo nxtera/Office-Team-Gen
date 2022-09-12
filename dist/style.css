@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(183, 198, 210);
+}
+
+header {
+    background-color: burlywood;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+    
+
+}
+.employee-cards{
+
+width: 280px;
+height: 120px;
+margin: 0 auto;
+margin-left: 200px;
+margin-right: 15px;
+margin-top: 50px;
+border: 3px solid burlywood;
+background-color: antiquewhite;
+padding: 5px;
+display:inline-table
+
+
+}
+ .eId, .eEmail, .eExtra {
+  font-size: 20px;
+  padding: 0;
+  padding-left: 10px;
+  margin: 0;
+}
+
+.eName {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    color:brown;
+}
+
+.employee-cards h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}

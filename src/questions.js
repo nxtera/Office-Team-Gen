@@ -1,4 +1,3 @@
-const inquirer = require('inquirer');
 
 const MainMenuQs = [
     {
@@ -92,3 +91,4 @@ module.exports = {
     EngineerQs,
     InternQs,
 }
+//console.log (MainMenuQs)
