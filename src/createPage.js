@@ -31,7 +31,7 @@ const CreateTeamPage = (managers, engineers, interns) => {
             <div class="eName">${response.name}</div>
             <div class="eId">ID: ${response.id}</div>
             <div class ="eEmail">Email: 
-                <a href="${response.email}">${response.email}</a>
+                <a href="mailto:${response.email}">${response.email}</a>
             </div>
             <div class ="eExtra">Office Number: ${response.officeNumber}</div>
         </section>
@@ -40,32 +40,32 @@ const CreateTeamPage = (managers, engineers, interns) => {
     const engineerTemplate = (response) => {
         return `
         <section class="employee-cards">
-        <div>
-            <h2>Engineer 📐</h2>
-        </div>
-        <div class="eName">${response.name}</div>
-        <div class="eId">ID: ${response.id}</div>
-        <div class ="eEmail">Email: 
-            <a href="mailto:${response.email}">${response.email}</a>
-        </div>
-        <div class="eExtra">Github:
-            <a href="https://github.com/${response.github}">github.com/${response.github}</a>
-        </div>
+            <div>
+                <h2>Engineer 📐</h2>
+            </div>
+            <div class="eName">${response.name}</div>
+            <div class="eId">ID: ${response.id}</div>
+            <div class ="eEmail">Email: 
+                <a href="mailto:${response.email}">${response.email}</a>
+            </div>
+            <div class="eExtra">Github:
+                <a href="https://github.com/${response.github}">github.com/${response.github}</a>
+            </div>
         </section>
         `
     }
     const internTemplate = (response) => {
         return `
         <section class="employee-cards">
-        <div>
-            <h2>Intern 🎓</h2>
-        </div>
-        <div class="eName">${response.name}</div>
-        <div class="eId">ID: ${response.id}</div>
-        <div class ="eEmail">Email: 
-            <a href="${response.email}">${response.email}</a>
-        </div>
-        <div class ="eExtra">School: ${response.school}</div>
+            <div>
+                <h2>Intern 🎓</h2>
+            </div>
+            <div class="eName">${response.name}</div>
+            <div class="eId">ID: ${response.id}</div>
+            <div class ="eEmail">Email: 
+                <a href="mailto:${response.email}">${response.email}</a>
+            </div>
+            <div class ="eExtra">School: ${response.school}</div>
         </section>
         `
     }

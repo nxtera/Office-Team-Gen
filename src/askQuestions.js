@@ -61,6 +61,7 @@ const AskMainMenuQs = () => {
             else if (response.option === "Build the team") {
                 const generateHTML = CreateTeamPage(managers, engineers, interns)
                 writeToFile('./dist/index.html', generateHTML)
+                console.log("Page built sucessfully!")
             }
         })
 }

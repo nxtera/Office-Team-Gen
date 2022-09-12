@@ -55,8 +55,7 @@ Gif of live application (sample)
 
 Video demonstration can be found via the following link.
 
-https://drive.google.com/file/d/1SR41pcfvtssruV9DxpMNMQZ5zCTjTCYC/view?usp=sharing
-
+https://drive.google.com/file/d/1WZ6ETA9Et_pInPNF6DqHrrDburPAh0dM/view?usp=sharing
 
 
    
