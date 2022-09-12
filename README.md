@@ -15,30 +15,26 @@ A quick and easy to use command line application that takes the user's input abo
 
 
 ## What was my motivation?
-To dive straight into backend development and demonstrate my knowledge using node.js to create a very useful application that I, myself will use in all future projects.
+To use all my knowledge from the previous weeks to create a lightweight and useful full stack application that uses javascript, nodejs, html and css.
  
 
 ## What did I do?
-Used knowledge gained on node.js from the past week in Bootcamp to expand on the starter code to ensure the app had the relevant functionality that meets the user criteria. I had to use the professional readme guide to ensure the I prompted the user for the information that would output a quality README that meets industry standards.
+Used knowledge gained particularly on object-oriented programming in Bootcamp to build an app from the ground up that takes user information and outputs it in a tidy formatted html page.
 
 
 ## What did I learn?
-- How to programme a command line application using Node.js.
-- How to use the inquirer package. 
-- How to generate a high quality, professional README.
+- How to best use classes in JavaScript to avoid repeat code.
+- How to test your app using jest.
+- How to tie backend development with front end devolpment. 
 
 
 ## Usage
 Required Information:
-- Name of the Project
-- Description of the project?
-- Instructions and examples for use of the project
-- Steps required to install the project
-- How  others can contribute to the project
-- The test information
-- The type of license required
-- Github handle?",  
-- What is your email address?
+- Name of the Employees
+- ID of Employees
+- Email address of Employees
+- Number and type of Employees you wish to add to your project.
+
 
 ### Installation
 1) Start by initializing the app using  
@@ -55,7 +51,7 @@ Gif of live application (sample)
 
 Video demonstration can be found via the following link.
 
-https://drive.google.com/file/d/1WZ6ETA9Et_pInPNF6DqHrrDburPAh0dM/view?usp=sharing
+https://drive.google.com/file/d/1WZ6ETA9Et_pInPNF6DqHrrDburPAh0dM/view
 
 
    
