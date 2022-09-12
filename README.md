@@ -47,7 +47,7 @@ node index
 
 Gif of live application (sample)
 
-![me](https://github.com/nxtera/WriteYou/blob/main/assets/images/Office_Team_Gen.gif)
+![me](https://github.com/nxtera/Office-Team-Gen/blob/main/assets/images/Office_Team_Gen.gif)
 
 Video demonstration can be found via the following link.
 
